@@ -1,0 +1,5 @@
+[default.general]
+chip = "thumbv7em-none-eabihf"
+
+[default.rtt]
+enabled = true
