@@ -14,9 +14,11 @@ fn main() -> ! {
     // initialization
     rtt_init_print!();
     rprintln!("Hello world!");
+    let mut x = 100;
 
     loop {
-        rprintln!("Echo...");
+        x += 1;
+        rprintln!("x={}", x);
         for _ in 0..1_000_000 {
             nop();
         }

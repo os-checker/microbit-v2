@@ -1,5 +1,14 @@
+# Ref: https://github.com/probe-rs/probe-rs/blob/master/probe-rs-tools/src/bin/probe-rs/cmd/cargo_embed/config/default.toml
+# But this config file seems not workfing for the `probe-rs` executable.
+
 [default.general]
-chip = "thumbv7em-none-eabihf"
+chip = "nRF52833_xxAA"
 
 [default.rtt]
+enabled = false
+
+# Use `probe-rs gdb --reset-halt` instead.
+[default.gdb]
 enabled = true
+[default.reset]
+halt_afterwards = true

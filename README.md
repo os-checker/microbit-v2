@@ -1,7 +1,6 @@
 
 # Experiment with microbit-v2
 
-
 <details>
 
 <summary>Echo</summary>
@@ -10,7 +9,16 @@
 
 </details>
 
+<details>
 
+<summary>GDB</summary>
+
+1. `make gdb-server` in a terminal
+2. `make gdb-client` in another terminal
+
+<video src="https://github.com/user-attachments/assets/441fe6cf-7de1-4a69-a1f3-e28adbb61508" controls width="80%"></video>
+
+</details>
 
 # Reference
 
